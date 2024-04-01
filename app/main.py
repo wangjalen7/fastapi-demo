@@ -16,7 +16,7 @@ app.mount("/static", StaticFiles(directory="static", html = True), name="static"
 DBHOST = os.environ.get('DBHOST')
 DBUSER = os.environ.get('DBUSER')
 DBPASS = os.environ.get('DBPASS')
-DB = "nem2p"
+DB = "zac9nk"
 
 @app.get("/")  # zone apex
 def zone_apex():
