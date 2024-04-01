@@ -124,10 +124,10 @@ def get_all_albums():
 #     return {"buckets": buckets}
 
 # # A simple GET endpoint to return a list of tasks
-# @app.get("/tasks")
-# def get_tasks():
-#     tasks = ["Task 1: Learn Docker", "Task 2: Build a FastAPI app", "Task 3: Deploy using GitHub Actions"]
-#     return {"tasks": tasks}
+@app.get("/tasks")
+def get_tasks():
+    tasks = ["Task 1: Learn Docker", "Task 2: Build a FastAPI app", "Task 3: Deploy using GitHub Actions"]
+    return {"tasks": tasks}
 
 
 # @app.post("/albums")
